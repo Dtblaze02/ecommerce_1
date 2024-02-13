@@ -5,7 +5,7 @@ const DetailScreen = ()=>{
     return (
         <View>
             <Text>
-                This is product detail screen
+                This is product details screen
             </Text>
         </View>
     )
