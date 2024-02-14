@@ -5,6 +5,7 @@ import DetailScreen from './src/screens/detail/DetailScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
+import { AccountScreen } from './src/account/AccountScreen';
 
 const Tab = createBottomTabNavigator();
 //purecash
@@ -20,7 +21,10 @@ export default function App() {
               if(route.name === 'Home'){
                 iconName = focused ? 'home' : 'home-outline'
               }else if(route.name === 'Detail'){
-                iconName = focused ? 'pricetag' : 'pricetag-outline'
+                iconName = focused ? 'cart' : 'cart-outline'
+              }else if(route.name === 'Account'){
+                iconName = focused ? 'account' : 'account-outline'
+
               }
               return <Ionicons name={iconName} size={size} color={color}/>
             }
@@ -32,6 +36,7 @@ export default function App() {
         >
           <Tab.Screen name='Home' component={HomeScreen} options={{title:'Welcome to Shop'}}/>
           <Tab.Screen name='Detail' component={DetailScreen} options={{title:'Product Detail'}}/>
+          <Tab.Screen name='Account' component={AccountScreen} options={{title:'Account'}}/>
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaView>
