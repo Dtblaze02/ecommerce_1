@@ -7,7 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
-
+//purecash
 export default function App() {
   return (
     <SafeAreaView style={styles.AndroidSafeArea}>
