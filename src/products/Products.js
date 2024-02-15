@@ -23,12 +23,11 @@ export const products = [
         price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
       },
+      {
       id: 5,
         name: 'Product 5',
         price: '$50.99',
-        image: require('../../assets/images/footwears.png'),
-      {
-
+        image: require('../../assets/images/footwear.png'),
       }
     // Add more products as needed
   ];
