@@ -23,14 +23,15 @@ export default function App() {
               }else if(route.name === 'Detail'){
                 iconName = focused ? 'cart' : 'cart-outline'
               }else if(route.name === 'Account'){
-                iconName = focused ? 'account' : 'account-outline'
+                iconName = focused ? 'people' : 'people-outline'
 
               }
+              
               return <Ionicons name={iconName} size={size} color={color}/>
             }
           })}
           tabBarOptions={{
-            activeTintColor: 'blue',
+            activeTintColor: '#714423',
             inactiveTintColor: 'black'
           }}
         >
