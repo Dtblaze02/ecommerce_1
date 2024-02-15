@@ -20,7 +20,7 @@ export const products = [
       {
         id: 4,
         name: 'Product 4',
-        price: '$24.99',
+        price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
       },
     // Add more products as needed
