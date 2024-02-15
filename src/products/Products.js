@@ -8,7 +8,7 @@ export const products = [
     {
       id: 2,
       name: 'Product 2',
-      price: '$29.99',
+      price: '$49.99',
       image: require('../../assets/images/shoe-1.png'),
     },
     {
