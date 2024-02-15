@@ -14,7 +14,7 @@ export const products = [
     {
         id: 3,
         name: 'Product 3',
-        price: '$19.99',
+        price: '$14.99',
         image: require('../../assets/images/shoe-2.png'),
       },
       {
