@@ -23,13 +23,6 @@ export const products = [
         price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
       },
-      id: 5,
-        name: 'Product 5',
-        price: '$50.99',
-        image: require('../../assets/images/footwears.png'),
-      {
-
-      }
     // Add more products as needed
     {
       id: 5,
@@ -38,10 +31,16 @@ export const products = [
       image: require('../../assets/images/watch-10.jpg'),
     },
     {
-      id: 5,
+      id: 6,
       name: 'Product 5',
       price: '$19.99',
       image: require('../../assets/images/watch-9.jpg'),
+    },
+    {
+      id: 7,
+      name: 'Product 5',
+      price: '$19.99',
+      image: require('../../assets/images/footwear.png'),
     },
   
   
