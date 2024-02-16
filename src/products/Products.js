@@ -99,6 +99,26 @@ export const products = [
             description: '',
             discount:''       
         },
+        {
+          id: 50,
+          name: 'Scissors slide genuine leather',
+          price: '$30.89',
+          image: require('../../assets/images/scissors slide genuine leather.jpg'),
+          category:'fashion',
+          quantity: '10',
+          description: '',
+          discount:''       
+      },
+      {
+      id: 80,
+      name: 'Plain hoodie',
+      price: '$25.55',
+      image: require('../../assets/images/plain hoodie.jpg'),
+      category:'fashion',
+      quantity: '5',
+      description: '',
+      discount:'' 
+      },
               
     // Add more products as needed
   ];
