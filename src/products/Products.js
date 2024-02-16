@@ -182,6 +182,32 @@ export const products = [
     description: '',
     discount:''   }, 
  
+
+{
+  id: 25,
+  name: 'Bread',
+  price: '$34.99',
+  image: require('../../assets/images/bread.jpg'),
+  category:'groceries',
+  quantity: '15',
+  description: '',
+  discount:''       
+},
+
+
+  {
+    id: 21,
+    name: 'Product 21',
+    price: '$44.99',
+    image: require('../../assets/images/watch-12.jpg'),
+    category:'fashion',
+    quantity: '15',
+    description: '',
+    discount:'' 
+  },
+   {
+     id: 40,
+
     {
       id: 25,
       name: 'Bread',
@@ -204,6 +230,7 @@ export const products = [
     },
     {
       id: 40,
+
       name: 'Sweat Shirt',
       price: '$50',
       image: require('../../assets/images/Zibaville-1.png'),
@@ -254,6 +281,22 @@ export const products = [
           discount:''
         },
 
+
+  
+
+
+{
+  id: 91,
+  name: 'Apple Watch',
+  price: '$64.99',
+  image: require('../../assets/images/watch-10.jpg'),
+  category:'fashion',
+  quantity: '15',
+  description: '',
+  discount:''       
+},
+
   // Add more products as needed
+
 
 ];
