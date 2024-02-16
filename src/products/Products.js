@@ -325,9 +325,9 @@ export const products = [
 },
 {
   id: 61,
-  name: 'w-shoes_4.png',
+  name: 'shoes-8.png',
   price: '$206.99',
-  image: require('../../assets/images/w-shoes_4.jpg'),
+  image: require('../../assets/images/shoe-8.jpg'),
   category:'fashion',
   quantity: '1',
   description: '',
