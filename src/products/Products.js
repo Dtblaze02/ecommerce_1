@@ -112,7 +112,7 @@ export const products = [
             description: '',
             discount:''       
         },
-        {
+         }
           id: 57,
           name: 'Product 57',
           price: '$57.00',
@@ -120,8 +120,19 @@ export const products = [
           category:'electronics',
           quantity: '57',
           description: '',
+          discount:'' 
+        },      
+          {
+            id: 57,
+          name: 'Product 21',
+          price: '$37.00',
+          image: require('../../assets/images/shoe.jpg'),
+          category:'fashion',
+          quantity: '25',
+          description: '',
           discount:''       
-      },
+          },
+      
               
 
     // Add more products as needed
@@ -135,7 +146,7 @@ export const products = [
       description: '',
       discount:''       
   },
-  {
+   {
     id: 19,
     name: 'Product 20',
     price: '$34.99',
@@ -143,8 +154,60 @@ export const products = [
     category:'fashion',
     quantity: '15',
     description: '',
-    discount:''       
+    discount:''   }, 
+ 
+{
+  id: 25,
+  name: 'Bread',
+  price: '$34.99',
+  image: require('../../assets/images/bread.jpg'),
+  category:'groceries',
+  quantity: '15',
+  description: '',
+  discount:''       
 },
+
+
+  {
+    id: 21,
+    name: 'Product 21',
+    price: '$44.99',
+    image: require('../../assets/images/watch-12.jpg'),
+    category:'fashion',
+    quantity: '15',
+    description: '',
+    discount:'' 
+  },
+   {
+     id: 40,
+      name: 'Sweat Shirt',
+      price: '$50',
+      image: require('../../assets/images/Zibaville-1.png'),
+      category:'fashion',
+      quantity: '25',
+      description: '',
+      discount:'' 
+   },
+  {
+    id: 26,
+    name: 'yam',
+    price: '$34.99',
+    image: require('../../assets/images/yam.jpg'),
+    category:'groceries',
+    quantity: '15',
+    description: '',
+    discount:''       
+  },
+    {
+    id: 31,
+    name: 'Product 31',
+    price: '$12.99',
+    image: require('../../assets/images/glass-1.jpg'),
+    category:'fashion',
+    quantity: '10',
+    description: '',
+    discount:'' 
+  }
 {
   id: 91,
   name: 'Apple Watch',
@@ -155,4 +218,5 @@ export const products = [
   description: '',
   discount:''       
 },
-  ];
+  
+];
