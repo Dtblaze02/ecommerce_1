@@ -322,6 +322,15 @@ export const products = [
   quantity: '20',
   description: '',
   discount:''
+},
+{
+  id: 180,
+  name: 'Tecno Aba',
+  price: '$30.99',
+  image: require('../../assets/images/iphone1.jpg'),
+  category:'electronics',
+  quantity: '40',
+  description: ' for you',
+  discount:''
 }
-
 ];
