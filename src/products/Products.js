@@ -146,7 +146,6 @@ export const products = [
     discount:''       
 },
   {
-    Aniberry01
     id: 21,
     name: 'Product 21',
     price: '$44.99',
