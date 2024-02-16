@@ -67,8 +67,8 @@ export const products = [
         id: 7,
         name: 'Product 7',
         price: '$1299.99',
-        image: require('../../assets/images/iphone15.jpg'),
-        category:'Phones',
+        image: require('../../assets/images/.jpg'),
+        category:'electronics',
         quantity: '300',
         description: 'Experience Premium luxury with the iPhone 16',
         discount:'10% off '
