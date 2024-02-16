@@ -155,5 +155,15 @@ export const products = [
     quantity: '15',
     description: '',
     discount:'' 
-  } 
+  },
+   {
+     id: 40,
+      name: 'Sweat Shirt',
+      price: '$50',
+      image: require('../../assets/images/Zibaville-1.png'),
+      category:'fashion',
+      quantity: '25',
+      description: '',
+      discount:'' 
+   }
   ];
