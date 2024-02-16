@@ -40,9 +40,8 @@ export const products = [
         category: 'fashion',
         quantity: '4',
         description: '',
-        discount:''
-      },
-      {
+        discount: ''
+    }, {
         id: 5,
         name: 'Product 5',
         price: '$30.99',
@@ -50,9 +49,6 @@ export const products = [
         category: 'fashion',
         quantity: '6',
         description: '',
-        discount:''
-      },
-      {
         discount: ''
     }, {
         id: 11,
@@ -81,7 +77,6 @@ export const products = [
         quantity: '34',
         description: '',
         discount: ''
-
     }, {
         id: 6,
         name: 'Product 6',
@@ -274,147 +269,132 @@ export const products = [
         discount: ''
     }, {
         id: 75,
-          name: 'Product 75',
-          price: '$2500.99',
-          image: require('../../assets/images/sony_camera75.png'),
-          category:'electronics',
-          quantity: '100',
-          description: 'unleash your creativity',
-          discount:''
-        },
-        {
-          id: 7,
-            name: 'Product 7',
-            price: '$150.99',
-            image: require('../../assets/images/w-shoes_1.jpg'),
-            category:'electronics',
-            quantity: '60',
-            description: '',
-            discount:''
-          },
-          {
-            id: 40,
-              name: 'iphone 15',
-              price: '$150.99',
-              image: require('../../assets/images/iphone1.jpg'),
-              category:'electronics',
-              quantity: '600',
-              description: '',
-              discount:''
-            },
-          {
-            id: 19,
-            name: 'Product 19',
-            price: '$34.99',
-            image: require('../../assets/images/kinomo-1.jpg'),
-            category:'fashion',
-            quantity: '15',
-            description: '',
-            discount:''       
-        },
-        {
-          id: 57,
-          name: 'Product 57',
-          price: '$57.00',
-          image: require('../../assets/images/mixer.png'),
-          category:'electronics',
-          quantity: '57',
-          description: '',
-          discount:''       
-      },
-    {
-      id: 19,
-      name: 'Product 21',
-      price: '$34.99',
-      image: require('../../assets/images/jacket.jpg'),
-      category:'fashion',
-      quantity: '15',
-      description: '',
-      discount:''       
-  },
-  {
-    id: 99,
-    name: 'Product 98',
-    price: '$17.00',
-    image: require('../../assets/images/hoodie-1.png'),
-    category:'fashion',
-    quantity: '100',
-    description: '',
-    discount:''       
-},
-  {
-    id: 19,
-    name: 'Product 20',
-    price: '$34.99',
-    image: require('../../assets/images/beanie.jpg'),
-    category:'fashion',
-    quantity: '15',
-    description: '',
-    discount:''
-  },
-{
-  id: 91,
-  name: 'Apple Watch',
-  price: '$64.99',
-  image: require('../../assets/images/watch-10.jpg'),
-  category:'fashion',
-  quantity: '15',
-  description: '',
-  discount:''       
-},
-{
-  id: 95,
-  name: 'wristWatch',
-  price: '$64.99',
-  image: require('../../assets/images/watch-6.jpg'),
-  category:'fashion',
-  quantity: '15',
-  description: '',
-  discount:''       
-},
-{
-  id: 95,
-  name: 'shoe',
-  price: '$50,99',
-  image: require('../../assets/images/shoe-3.png'),
-  category:'fashion',
-  quantity: '15',
-  description: '',
-  discount:''       
-},
-  {
-  id: 12,
-  name: 'Product 12',
-  price: '$200',
-  image: require('../../assets/images/hair.jpeg'),
-  category: 'Beauty',
-  quantity: '1',
-  description: '',
-  discount: '',
-  
-},
-{
-  id: 60,
-  name: 'w-shoes_1.png',
-  price: '$16.99',
-  image: require('../../assets/images/w-shoes_1.png'),
-  category:'fashion',
-  quantity: '20',
-  description: '',
-  discount:''
-},
-{
-  id: 619,
-  name: 'nivea',
-  price: '$2.99',
-  image: require('../../assets/images/nivea.jpg'),
-  category:'beauty',
-  quantity: '20',
-  description: '',
-  discount:''
-},
-  {
-        id:50,
+        name: 'Product 75',
+        price: '$2500.99',
+        image: require('../../assets/images/sony_camera75.png'),
+        category: 'electronics',
+        quantity: '100',
+        description: 'unleash your creativity',
+        discount: ''
+    }, {
+        id: 7,
+        name: 'Product 7',
+        price: '$150.99',
+        image: require('../../assets/images/w-shoes_1.jpg'),
+        category: 'electronics',
+        quantity: '60',
+        description: '',
+        discount: ''
+    }, {
+        id: 40,
+        name: 'iphone 15',
+        price: '$150.99',
+        image: require('../../assets/images/iphone1.jpg'),
+        category: 'electronics',
+        quantity: '600',
+        description: '',
+        discount: ''
+    }, {
+        id: 19,
+        name: 'Product 19',
+        price: '$34.99',
+        image: require('../../assets/images/kinomo-1.jpg'),
+        category: 'fashion',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 57,
+        name: 'Product 57',
+        price: '$57.00',
+        image: require('../../assets/images/mixer.png'),
+        category: 'electronics',
+        quantity: '57',
+        description: '',
+        discount: ''
+    }, {
+        id: 19,
+        name: 'Product 21',
+        price: '$34.99',
+        image: require('../../assets/images/jacket.jpg'),
+        category: 'fashion',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 99,
+        name: 'Product 98',
+        price: '$17.00',
+        image: require('../../assets/images/hoodie-1.png'),
+        category: 'fashion',
+        quantity: '100',
+        description: '',
+        discount: ''
+    }, {
+        id: 19,
+        name: 'Product 20',
+        price: '$34.99',
+        image: require('../../assets/images/beanie.jpg'),
+        category: 'fashion',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 91,
+        name: 'Apple Watch',
+        price: '$64.99',
+        image: require('../../assets/images/watch-10.jpg'),
+        category: 'fashion',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 95,
+        name: 'wristWatch',
+        price: '$64.99',
+        image: require('../../assets/images/watch-6.jpg'),
+        category: 'fashion',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 95,
+        name: 'shoe',
+        price: '$50,99',
+        image: require('../../assets/images/shoe-3.png'),
+        category: 'fashion',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 12,
+        name: 'Product 12',
+        price: '$200',
+        image: require('../../assets/images/hair.jpeg'),
+        category: 'Beauty',
+        quantity: '1',
+        description: '',
+        discount: ''
+    }, {
+        id: 60,
+        name: 'w-shoes_1.png',
+        price: '$16.99',
+        image: require('../../assets/images/w-shoes_1.jpg'),
+        category: 'fashion',
+        quantity: '20',
+        description: '',
+        discount: ''
+    }, {
+        id: 619,
+        name: 'nivea',
+        price: '$2.99',
+        image: require('../../assets/images/nivea.jpg'),
+        category: 'beauty',
+        quantity: '20',
+        description: '',
+        discount: ''
+    }, {
+        id: 50,
         name: 'Product 75',
         price: '$2500.99',
         image: require('../../assets/images/sony_camera75.png'),
