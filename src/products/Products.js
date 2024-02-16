@@ -99,6 +99,17 @@ export const products = [
             description: '',
             discount:''       
         },
+
+        {
+          id: 23,
+          name: 'Product 23',
+          price: '$34.99',
+          image: require('../../assets/images/snikers-1.jpg'),
+          category:'fashion',
+          quantity: '45',
+          description: '',
+          discount:''       
+      },
               
     // Add more products as needed
   ];
