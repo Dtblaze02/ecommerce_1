@@ -318,6 +318,17 @@ export const products = [
   discount:''       
 },
 {
+  id: 12,
+  name: 'Product 12',
+  price: '$200',
+  image: require('../../assets/images/hair.jpeg'),
+  category: 'Beauty',
+  quantity: '1',
+  description: '',
+  discount: '',
+  
+},
+{
   id: 60,
   name: 'w-shoes_1.png',
   price: '$16.99',
