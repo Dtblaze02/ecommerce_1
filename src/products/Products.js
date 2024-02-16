@@ -28,6 +28,12 @@ export const products = [
         name: 'Product 5',
         price: '$50.99',
         image: require('../../assets/images/footwear.png'),
+      },
+      {
+        id: 6,
+        name: 'Product 6',
+        price: '$30.99',
+        image: require('../../assets/images/belt image.jpg'),
       }
     // Add more products as needed
   ];
