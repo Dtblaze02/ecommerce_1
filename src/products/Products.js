@@ -40,6 +40,13 @@ export const products = [
             name: 'Product 7',
             price: '$150.99',
             image: require('../../assets/images/w-shoes_1.jpg'),
-          }
+          },
+          {
+            id: 8,
+              name: 'Product 8',
+              price: '$200.99',
+              image: require('../../assets/images/shoe-4.png'),
+            },   
+          
     // Add more products as needed
   ];
