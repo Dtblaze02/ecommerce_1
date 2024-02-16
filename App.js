@@ -27,12 +27,14 @@ export default function App() {
 
               }
               return <Ionicons name={iconName} size={size} color={color}/>
-            }
+            },
+            tabBarActiveTintColor: 'blue',
+            tabBarInactiveTintColor: 'black'
           })}
-          tabBarOptions={{
-            activeTintColor: 'blue',
-            inactiveTintColor: 'black'
-          }}
+          // tabBarOptions={{
+          //   activeTintColor: 'blue',
+          //   inactiveTintColor: 'black'
+          // }}
         >
           <Tab.Screen name='Home' component={HomeScreen} options={{title:'Welcome to Shop'}}/>
           <Tab.Screen name='Detail' component={DetailScreen} options={{title:'Product Detail'}}/>
