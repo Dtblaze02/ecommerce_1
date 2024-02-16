@@ -34,7 +34,7 @@ const HomeScreen = ({ navigation }) => {
           <Text style={styles.tabText}>Beauty</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => setSelectedCategory('electronics')} style={[styles.tab, selectedCategory === 'electronics' && styles.selectedTab]}>
-          <Text style={styles.tabText}>| Electronics</Text>
+          <Text style={styles.tabText}>Electronics</Text>
         </TouchableOpacity>
         
         {/* Add more tabs for other categories */}
