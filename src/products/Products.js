@@ -121,9 +121,7 @@ export const products = [
           quantity: '57',
           description: '',
           discount:''       
-      },
-              
-
+      },  
     // Add more products as needed
     {
       id: 19,
@@ -135,6 +133,16 @@ export const products = [
       description: '',
       discount:''       
   },
+  {
+    id: 99,
+    name: 'Product 98',
+    price: '$17.00',
+    image: require('../../assets/images/hoodie-1.png'),
+    category:'fashion',
+    quantity: '100',
+    description: '',
+    discount:''       
+},
   {
     id: 19,
     name: 'Product 20',
