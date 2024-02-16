@@ -59,7 +59,7 @@ export const products = [
         discount:''
       },
 
-      {
+      {         
       id: 5,
         name: 'Product 5',
         price: '$50.99',
@@ -68,7 +68,10 @@ export const products = [
         quantity: '34',
         description: '',
         discount:''
+
       },
+
+
       {
         id: 6,
           name: 'Product 6',
@@ -90,6 +93,16 @@ export const products = [
             discount:''
           },
           {
+            id: 40,
+              name: 'iphone 15',
+              price: '$150.99',
+              image: require('../../assets/images/iphone1.jpg'),
+              category:'electronics',
+              quantity: '600',
+              description: '',
+              discount:''
+            },
+          {
             id: 19,
             name: 'Product 19',
             price: '$34.99',
@@ -99,29 +112,119 @@ export const products = [
             description: '',
             discount:''       
         },
-              
-
-        {
-          id: 75,
-            name: 'Product 75',
-            price: '$1500.99',
-            image: require('../../assets/images/canon_camera75.png'),
-            category:'electronics',
-            quantity: '100',
-            description: 'unleash your creativity',
-            discount:''
-          },
-
+         {
+          id: 57,
+          name: 'Product 57',
+          price: '$57.00',
+          image: require('../../assets/images/mixer.png'),
+          category:'electronics',
+          quantity: '57',
+          description: '',
+          discount:'' 
+        },      
           {
-            id: 75,
-              name: 'Product 75',
-              price: '$2500.99',
-              image: require('../../assets/images/sony_camera75.png'),
-              category:'electronics',
-              quantity: '100',
-              description: 'unleash your creativity',
-              discount:''
-            },
+            id: 57,
+          name: 'Product 21',
+          price: '$37.00',
+          image: require('../../assets/images/shoe.jpg'),
+          category:'fashion',
+          quantity: '25',
+          description: '',
+          discount:''       
+          },
+      
+    {
+      id: 19,
+      name: 'Product 21',
+      price: '$34.99',
+      image: require('../../assets/images/jacket.jpg'),
+      category:'fashion',
+      quantity: '15',
+      description: '',
+      discount:''       
+  },
+   {
+    id: 19,
+    name: 'Product 20',
+    price: '$34.99',
+    image: require('../../assets/images/beanie.jpg'),
+    category:'fashion',
+    quantity: '15',
+    description: '',
+    discount:''   }, 
+ 
+    {
+      id: 25,
+      name: 'Bread',
+      price: '$34.99',
+      image: require('../../assets/images/bread.jpg'),
+      category:'groceries',
+      quantity: '15',
+      description: '',
+      discount:''       
+    },
+    {
+      id: 21,
+      name: 'Product 21',
+      price: '$44.99',
+      image: require('../../assets/images/watch-12.jpg'),
+      category:'fashion',
+      quantity: '15',
+      description: '',
+      discount:'' 
+    },
+    {
+      id: 40,
+      name: 'Sweat Shirt',
+      price: '$50',
+      image: require('../../assets/images/Zibaville-1.png'),
+      category:'fashion',
+      quantity: '25',
+      description: '',
+      discount:'' 
+    },
+    {
+      id: 26,
+      name: 'yam',
+      price: '$34.99',
+      image: require('../../assets/images/yam.jpg'),
+      category:'groceries',
+      quantity: '15',
+      description: '',
+      discount:''       
+    },
+    {
+    id: 31,
+    name: 'Product 31',
+    price: '$12.99',
+    image: require('../../assets/images/glass-1.jpg'),
+    category:'fashion',
+    quantity: '10',
+    description: '',
+    discount:'' 
+  },
+    {
+      id: 75,
+        name: 'Product 75',
+        price: '$1500.99',
+        image: require('../../assets/images/canon_camera75.png'),
+        category:'electronics',
+        quantity: '100',
+        description: 'unleash your creativity',
+        discount:''
+      },
 
-    // Add more products as needed
-  ];
+      {
+        id: 75,
+          name: 'Product 75',
+          price: '$2500.99',
+          image: require('../../assets/images/sony_camera75.png'),
+          category:'electronics',
+          quantity: '100',
+          description: 'unleash your creativity',
+          discount:''
+        },
+
+  // Add more products as needed
+
+];
