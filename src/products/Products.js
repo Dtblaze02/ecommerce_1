@@ -99,6 +99,16 @@ export const products = [
             description: '',
             discount:''       
         },
+        {
+          id: 20,
+          name: 'Smart Watch',
+          price: '$74.99',
+          image: require('../../assets/images/watch-10.jpg'),
+          category:'fashion',
+          quantity: '15',
+          description: '',
+          discount:''       
+      }
               
     // Add more products as needed
   ];
