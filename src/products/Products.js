@@ -112,7 +112,7 @@ export const products = [
             description: '',
             discount:''       
         },
-         }
+         {
           id: 57,
           name: 'Product 57',
           price: '$57.00',
@@ -133,9 +133,6 @@ export const products = [
           discount:''       
           },
       
-              
-
-    // Add more products as needed
     {
       id: 19,
       name: 'Product 21',
@@ -156,28 +153,28 @@ export const products = [
     description: '',
     discount:''   }, 
  
-{
-  id: 25,
-  name: 'Bread',
-  price: '$34.99',
-  image: require('../../assets/images/bread.jpg'),
-  category:'groceries',
-  quantity: '15',
-  description: '',
-  discount:''       
-},
-  {
-    id: 21,
-    name: 'Product 21',
-    price: '$44.99',
-    image: require('../../assets/images/watch-12.jpg'),
-    category:'fashion',
-    quantity: '15',
-    description: '',
-    discount:'' 
-  },
-   {
-     id: 40,
+    {
+      id: 25,
+      name: 'Bread',
+      price: '$34.99',
+      image: require('../../assets/images/bread.jpg'),
+      category:'groceries',
+      quantity: '15',
+      description: '',
+      discount:''       
+    },
+    {
+      id: 21,
+      name: 'Product 21',
+      price: '$44.99',
+      image: require('../../assets/images/watch-12.jpg'),
+      category:'fashion',
+      quantity: '15',
+      description: '',
+      discount:'' 
+    },
+    {
+      id: 40,
       name: 'Sweat Shirt',
       price: '$50',
       image: require('../../assets/images/Zibaville-1.png'),
@@ -185,17 +182,17 @@ export const products = [
       quantity: '25',
       description: '',
       discount:'' 
-   },
-  {
-    id: 26,
-    name: 'yam',
-    price: '$34.99',
-    image: require('../../assets/images/yam.jpg'),
-    category:'groceries',
-    quantity: '15',
-    description: '',
-    discount:''       
-  },
+    },
+    {
+      id: 26,
+      name: 'yam',
+      price: '$34.99',
+      image: require('../../assets/images/yam.jpg'),
+      category:'groceries',
+      quantity: '15',
+      description: '',
+      discount:''       
+    },
     {
     id: 31,
     name: 'Product 31',
@@ -206,4 +203,7 @@ export const products = [
     description: '',
     discount:'' 
   }
+
+  // Add more products as needed
+
 ];
