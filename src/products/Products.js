@@ -25,8 +25,8 @@ export const products = [
       },
       {
         id: 5,
-        name: 'Product 4',
-        price: '$19.99',
+        name: 'Iphone 15',
+        price: '$1999.99',
         image: require('../../assets/images/iphone1.jpg'),
       },
     // Add more products as needed
