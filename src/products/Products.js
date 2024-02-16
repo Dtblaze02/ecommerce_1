@@ -22,9 +22,10 @@ export const products = [
         name: 'Product 4',
         price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
-      },{
-        id: 5,
-        name: 'Product 5',
+      },
+      {
+        id: 11,
+        name: 'Product 11',
         price: '$19.99',
         image: require('../../assets/images/Teemespice Slippers.jpg'),
       },
