@@ -309,6 +309,15 @@ export const products = [
   discount:''
 },
 {
+  id: 63,
+  name: 'kids gown-1.jpg',
+  price: '$56.99',
+  image: require('../../assets/images/kids gown-1.jpg'),
+  category:'fashion',
+  quantity: '35',
+  description: '',
+  discount:''
+},{
   id: 61,
   name: 'shoes-8.png',
   price: '$206.99',
@@ -471,5 +480,4 @@ export const products = [
         description: '',
         discount: ''
     }
-
 ];
