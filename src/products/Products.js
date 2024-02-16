@@ -202,7 +202,28 @@ export const products = [
     quantity: '10',
     description: '',
     discount:'' 
-  }
+  },
+    {
+      id: 75,
+        name: 'Product 75',
+        price: '$1500.99',
+        image: require('../../assets/images/canon_camera75.png'),
+        category:'electronics',
+        quantity: '100',
+        description: 'unleash your creativity',
+        discount:''
+      },
+
+      {
+        id: 75,
+          name: 'Product 75',
+          price: '$2500.99',
+          image: require('../../assets/images/sony_camera75.png'),
+          category:'electronics',
+          quantity: '100',
+          description: 'unleash your creativity',
+          discount:''
+        },
 
   // Add more products as needed
 
