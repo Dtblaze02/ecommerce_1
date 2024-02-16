@@ -28,6 +28,7 @@ export default function App() {
               }
               return <Ionicons name={iconName} size={size} color={color}/>
             },
+            //this section was used to fix the commented code below
             tabBarActiveTintColor: 'blue',
             tabBarInactiveTintColor: 'black'
           })}
