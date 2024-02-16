@@ -41,5 +41,28 @@ export const products = [
         price: '$1999.99',
         image: require('../../assets/images/iphone1.jpg'),
       },
+<<<<<<< HEAD
+=======
+      {
+        id: 6,
+          name: 'Product 6',
+          price: '$10.99',
+          image: require('../../assets/images/watch-6.jpg'),
+        },
+        {
+          id: 7,
+            name: 'Product 7',
+            price: '$150.99',
+            image: require('../../assets/images/w-shoes_1.jpg'),
+          },
+            
+                {
+                  id: 19,
+                  name: 'Product 19',
+                  price: '$34.99',
+                  image: require('../../assets/images/Kinomo-1.jpg'),
+              },
+              
+>>>>>>> upstream/main
     // Add more products as needed
   ];
