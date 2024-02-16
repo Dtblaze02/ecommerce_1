@@ -7,14 +7,17 @@ export const products = [
     },
     {
       id: 2,
-      name: 'Cover Shoe',
-      price: '$29.99',
+
+      name: 'Product 2',
+      price: '$49.99',
       image: require('../../assets/images/shoe-1.png'),
     },
     {
         id: 3,
-        name: 'Boots',
-        price: '$19.99',
+
+        name: 'Product 3',
+        price: '$14.99',
+
         image: require('../../assets/images/shoe-2.png'),
       },
       {
@@ -23,38 +26,12 @@ export const products = [
         price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
       },
-    // Add more products as needed
-    {
       id: 5,
-      name: 'Product 5',
-      price: '$19.99',
-      image: require('../../assets/images/watch-10.jpg'),
-    },
-    {
-      id: 6,
-      name: 'Product 6',
-      price: '$19.99',
-      image: require('../../assets/images/watch-9.jpg'),
-    },
-    {
-      id: 7,
-      name: 'Product 7',
-      price: '$19.99',
-      image: require('../../assets/images/footwear.png'),
-    },
-    {
-      id: 8,
-      name: 'Product 8',
-      price: '$19.99',
-      image: require('../../assets/images/jacket.jpg'),
-    },
-    {
-      id: 9,
-      name: 'Product 9',
-      price: '$19.99',
-      image: require('../../assets/images/jacket.jpg'),
-    },
-  
-  
-  
+        name: 'Product 5',
+        price: '$50.99',
+        image: require('../../assets/images/footwears.png'),
+      {
+
+      }
+    // Add more products as needed
   ];
