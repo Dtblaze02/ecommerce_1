@@ -46,6 +46,16 @@ export const products = [
         description: '',
         discount:''
       },
+      {
+        id: 11,
+        name: 'Product 11',
+        price: '$19.99',
+        image: require('../../assets/images/Teemespice_Slippers.jpg'),
+        category:'fashion',
+        quantity: '20',
+        description: '',
+        discount:''
+      },
 
 
       {
