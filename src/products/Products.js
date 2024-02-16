@@ -282,6 +282,76 @@ export const products = [
           description: 'unleash your creativity',
           discount:''
         },
+        {
+          id: 7,
+            name: 'Product 7',
+            price: '$150.99',
+            image: require('../../assets/images/w-shoes_1.jpg'),
+            category:'electronics',
+            quantity: '60',
+            description: '',
+            discount:''
+          },
+          {
+            id: 40,
+              name: 'iphone 15',
+              price: '$150.99',
+              image: require('../../assets/images/iphone1.jpg'),
+              category:'electronics',
+              quantity: '600',
+              description: '',
+              discount:''
+            },
+          {
+            id: 19,
+            name: 'Product 19',
+            price: '$34.99',
+            image: require('../../assets/images/kinomo-1.jpg'),
+            category:'fashion',
+            quantity: '15',
+            description: '',
+            discount:''       
+        },
+        {
+          id: 57,
+          name: 'Product 57',
+          price: '$57.00',
+          image: require('../../assets/images/mixer.png'),
+          category:'electronics',
+          quantity: '57',
+          description: '',
+          discount:''       
+      },
+    {
+      id: 19,
+      name: 'Product 21',
+      price: '$34.99',
+      image: require('../../assets/images/jacket.jpg'),
+      category:'fashion',
+      quantity: '15',
+      description: '',
+      discount:''       
+  },
+  {
+    id: 99,
+    name: 'Product 98',
+    price: '$17.00',
+    image: require('../../assets/images/hoodie-1.png'),
+    category:'fashion',
+    quantity: '100',
+    description: '',
+    discount:''       
+},
+  {
+    id: 19,
+    name: 'Product 20',
+    price: '$34.99',
+    image: require('../../assets/images/beanie.jpg'),
+    category:'fashion',
+    quantity: '15',
+    description: '',
+    discount:''
+  },
 {
   id: 91,
   name: 'Apple Watch',
