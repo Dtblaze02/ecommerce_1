@@ -99,6 +99,16 @@ export const products = [
             description: '',
             discount:''       
         },
+        {
+          id: 57,
+          name: 'Product 57',
+          price: '$57.00',
+          image: require('../../assets/images/mixer.png'),
+          category:'electronics',
+          quantity: '57',
+          description: '',
+          discount:''       
+      },
               
     // Add more products as needed
   ];
