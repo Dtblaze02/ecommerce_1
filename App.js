@@ -52,6 +52,4 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         paddingTop: Platform.OS === 'android' ? 25 : 0
     },
-});
-
-
+}); 
