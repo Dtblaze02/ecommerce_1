@@ -101,7 +101,7 @@ export const products = [
         },
         {
           id: 40,
-          name: 'SWeat Sheat',
+          name: 'Sweat Shirt',
           price: '$50',
           image: require('../../assets/images/Zibaville-1.png'),
           category:'fashion',
