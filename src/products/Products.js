@@ -60,6 +60,12 @@ export const products = [
                   price: '$34.99',
                   image: require('../../assets/images/Kinomo-1.jpg'),
               },
+              {
+                id: 25,
+                name: 'Zibabille 25',
+                price: '$49.99',
+                image: require('../../assets/images/Zibaville-1.png'),
+            },
               
     // Add more products as needed
   ];
