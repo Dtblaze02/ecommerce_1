@@ -44,6 +44,16 @@ export const products = [
         discount:''
       },
       {
+        id: 5,
+        name: 'Product 5',
+        price: '$30.99',
+        image: require('../../assets/images/belt image.jpg'),
+        category: 'fashion',
+        quantity: '6',
+        description: '',
+        discount:''
+      },
+      {
         id: 11,
         name: 'Product 11',
         price: '$19.99',
