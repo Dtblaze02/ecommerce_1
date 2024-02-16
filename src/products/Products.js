@@ -145,4 +145,14 @@ export const products = [
     description: '',
     discount:''       
 },
+{
+  id: 91,
+  name: 'Apple Watch',
+  price: '$64.99',
+  image: require('../../assets/images/watch-10.jpg'),
+  category:'fashion',
+  quantity: '15',
+  description: '',
+  discount:''       
+},
   ];
