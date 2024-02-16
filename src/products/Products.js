@@ -46,7 +46,7 @@ export const products = [
                   id: 19,
                   name: 'Product 19',
                   price: '$34.99',
-                  image: require('../../assets/images/kinomo-1.jpg'),
+                  image: require('../../assets/images/Kinomo-1.jpg'),
               },
               
     // Add more products as needed
