@@ -321,7 +321,16 @@ export const products = [
   description: '',
   discount:''
 },
-
+{
+  id: 180,
+  name: 'Tecno Aba',
+  price: '$30.99',
+  image: require('../../assets/images/joyg.jpg'),
+  category:'electronics',
+  quantity: '40',
+  description: ' for you',
+  discount:''
+},
 {
   id: 66,
   name: 'trousers-1.png',
