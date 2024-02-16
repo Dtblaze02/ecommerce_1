@@ -53,6 +53,8 @@ export const products = [
         image: require('../../assets/images/Teemespice_Slippers.jpg'),
         category:'fashion',
         quantity: '20',
+        description: '',
+        discount:''
       },
 
 
