@@ -143,7 +143,7 @@ export const products = [
     category:'fashion',
     quantity: '15',
     description: '',
-    discount:''     
+    discount:''   }, 
  
 {
   id: 25,
