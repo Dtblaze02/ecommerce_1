@@ -8,7 +8,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>Welcome to Our Store</Text>
+        <Text style={styles.headerText}>Welcome to Our Online Store</Text>
       </View>
       <View style={styles.productContainer}>
         {products.map(product => (
