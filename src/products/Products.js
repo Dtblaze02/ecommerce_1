@@ -49,5 +49,13 @@ export const products = [
                   image: require('../../assets/images/kinomo-1.jpg'),
               },
               
+              {
+                id: 75,
+                  name: 'Product 75',
+                  price: '$1500.99',
+                  image: require('../../assets/images/canon_camera75' ),
+                },
+            
+             
     // Add more products as needed
   ];
