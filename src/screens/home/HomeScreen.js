@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import { View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
 import { styles } from './style';
 import { products } from '../../products/Products';
