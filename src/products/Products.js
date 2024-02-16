@@ -337,6 +337,17 @@ export const products = [
   quantity: '20',
   description: '',
   discount:''
-}
+},
+{
+  id: 619,
+  name: 'nivea',
+  price: '$2.99',
+  image: require('../../assets/images/nivea.jpg'),
+  category:'beauty',
+  quantity: '20',
+  description: '',
+  discount:''
+},
+
 
 ];
