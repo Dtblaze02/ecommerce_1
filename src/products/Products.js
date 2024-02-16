@@ -7,7 +7,7 @@ export const products = [
     },
     {
       id: 2,
-      name: 'Cover Shoe',
+      name: 'DSDP Shoe',
       price: '$29.99',
       image: require('../../assets/images/shoe-1.png'),
     },
@@ -22,6 +22,12 @@ export const products = [
         name: 'Product 4',
         price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
+      },
+      {
+        id: 5,
+        name: 'Product 4',
+        price: '$19.99',
+        image: require('../../assets/images/iphone1.jpg'),
       },
     // Add more products as needed
   ];
