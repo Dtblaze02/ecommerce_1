@@ -54,8 +54,8 @@ export const products = [
         discount:''
       },
       {
-        id: 11,
-        name: 'Product 11',
+        id: 6,
+        name: 'Product 6',
         price: '$19.99',
         image: require('../../assets/images/Teemespice_Slippers.jpg'),
         category:'fashion',
@@ -64,8 +64,18 @@ export const products = [
         discount:''
       },
       {
-        id: 30,
-        name: 'Product 30',
+        id: 7,
+        name: 'Product 7',
+        price: '$1299.99',
+        image: require('../../assets/images/iphone15.jpg'),
+        category:'Phones',
+        quantity: '300',
+        description: 'Experience Premium luxury with the iPhone 16',
+        discount:'10% off '
+      },
+      {
+        id: 8,
+        name: 'Product 8',
         price: '$24.99',
         image: require('../../assets/images/belt-1.png'),
         category: 'fashion',
@@ -73,8 +83,8 @@ export const products = [
         description: '',
         discount: ''
     }, {
-        id: 5,
-        name: 'Product 5',
+        id: 9,
+        name: 'Product 9',
         price: '$50.99',
         image: require('../../assets/images/footwear.png'),
         category: 'fashion',
@@ -83,8 +93,8 @@ export const products = [
         discount: ''
 
     }, {
-        id: 6,
-          name: 'Product 6',
+        id: 10,
+          name: 'Product 10',
           price: '$10.99',
           image: require('../../assets/images/watch-6.jpg'),
           category:'electronics',
@@ -93,8 +103,8 @@ export const products = [
           discount:''
         },
         {
-          id: 7,
-            name: 'Product 7',
+          id: 11,
+            name: 'Product 11',
             price: '$150.99',
             image: require('../../assets/images/w-shoes_1.jpg'),
             category:'electronics',
