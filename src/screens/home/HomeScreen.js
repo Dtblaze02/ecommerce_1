@@ -24,18 +24,19 @@ const HomeScreen = ({ navigation }) => {
         <TouchableOpacity onPress={() => setSelectedCategory('All')} style={[styles.tab, selectedCategory === 'All' && styles.selectedTab]}>
           <Text style={styles.tabText}>All</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => setSelectedCategory('fashion')} style={[styles.tab, selectedCategory === 'Fashion' && styles.selectedTab]}>
+        <TouchableOpacity onPress={() => setSelectedCategory('fashion')} style={[styles.tab, selectedCategory === 'fashion' && styles.selectedTab]}>
           <Text style={styles.tabText}>Fashion</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => setSelectedCategory('groceries')} style={[styles.tab, selectedCategory === 'Groceries' && styles.selectedTab]}>
+        <TouchableOpacity onPress={() => setSelectedCategory('groceries')} style={[styles.tab, selectedCategory === 'groceries' && styles.selectedTab]}>
           <Text style={styles.tabText}>Groceries</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => setSelectedCategory('beauty')} style={[styles.tab, selectedCategory === 'Beauty' && styles.selectedTab]}>
+        <TouchableOpacity onPress={() => setSelectedCategory('beauty')} style={[styles.tab, selectedCategory === 'beauty' && styles.selectedTab]}>
           <Text style={styles.tabText}>Beauty</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => setSelectedCategory('electronics')} style={[styles.tab, selectedCategory === 'Electronics' && styles.selectedTab]}>
-          <Text style={styles.tabText}>Electronics</Text>
+        <TouchableOpacity onPress={() => setSelectedCategory('electronics')} style={[styles.tab, selectedCategory === 'electronics' && styles.selectedTab]}>
+          <Text style={styles.tabText}>| Electronics</Text>
         </TouchableOpacity>
+        
         {/* Add more tabs for other categories */}
       </View>
       <FlatList
