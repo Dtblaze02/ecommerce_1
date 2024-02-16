@@ -103,7 +103,7 @@ export const products = [
     // Add more products as needed
     {
       id: 19,
-      name: 'Product 20',
+      name: 'Product 21',
       price: '$34.99',
       image: require('../../assets/images/jacket.jpg'),
       category:'fashion',
