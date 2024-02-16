@@ -89,21 +89,6 @@ export const products = [
             description: '',
             discount:''
           },
-<<<<<<< HEAD
-            
-                {
-                  id: 19,
-                  name: 'Product 19',
-                  price: '$34.99',
-                  image: require('../../assets/images/Kinomo-1.jpg'),
-              },
-              {
-                id: 25,
-                name: 'Zibabille 25',
-                price: '$49.99',
-                image: require('../../assets/images/Zibaville-1.png'),
-            },
-=======
           {
             id: 19,
             name: 'Product 19',
@@ -114,7 +99,16 @@ export const products = [
             description: '',
             discount:''       
         },
->>>>>>> 962fa072704785504a9a29e9e7d6292127314c9d
+        {
+          id: 40,
+          name: 'SWeat Sheat',
+          price: '$50',
+          image: require('../../assets/images/Zibaville-1.png'),
+          category:'fashion',
+          quantity: '25',
+          description: '',
+          discount:''       
+      },
               
     // Add more products as needed
   ];
