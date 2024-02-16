@@ -32,19 +32,25 @@ export const products = [
     },
     {
       id: 6,
-      name: 'Product 5',
+      name: 'Product 6',
       price: '$19.99',
       image: require('../../assets/images/watch-9.jpg'),
     },
     {
       id: 7,
-      name: 'Product 5',
+      name: 'Product 7',
       price: '$19.99',
       image: require('../../assets/images/footwear.png'),
     },
     {
       id: 8,
       name: 'Product 8',
+      price: '$19.99',
+      image: require('../../assets/images/jacket.jpg'),
+    },
+    {
+      id: 9,
+      name: 'Product 9',
       price: '$19.99',
       image: require('../../assets/images/jacket.jpg'),
     },
