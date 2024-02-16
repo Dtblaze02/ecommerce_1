@@ -145,4 +145,15 @@ export const products = [
     description: '',
     discount:''       
 },
+  {
+    Aniberry01
+    id: 21,
+    name: 'Product 21',
+    price: '$44.99',
+    image: require('../../assets/images/watch-12.jpg'),
+    category:'fashion',
+    quantity: '15',
+    description: '',
+    discount:'' 
+  } 
   ];
