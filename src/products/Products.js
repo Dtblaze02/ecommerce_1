@@ -112,7 +112,7 @@ export const products = [
             description: '',
             discount:''       
         },
-        {
+         }
           id: 57,
           name: 'Product 57',
           price: '$57.00',
@@ -196,5 +196,14 @@ export const products = [
     description: '',
     discount:''       
   },
+    {
+    id: 31,
+    name: 'Product 31',
+    price: '$12.99',
+    image: require('../../assets/images/glass-1.jpg'),
+    category:'fashion',
+    quantity: '10',
+    description: '',
+    discount:'' 
+  }
 ];
-
