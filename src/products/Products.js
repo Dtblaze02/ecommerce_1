@@ -103,16 +103,8 @@ export const products = [
         quantity: '60',
         description: '',
         discount: ''
-    }, {
-        id: 40,
-        name: 'iphone 15',
-        price: '$150.99',
-        image: require('../../assets/images/iphone1.jpg'),
-        category: 'electronics',
-        quantity: '600',
-        description: '',
-        discount: ''
-    }, {
+    },
+     {
         id: 19,
         name: 'Product 19',
         price: '$34.99',
@@ -240,7 +232,6 @@ export const products = [
         discount: ''
     }, {
         id: 40,
-
       name: 'Sweat Shirt',
       price: '$50',
       image: require('../../assets/images/Zibaville-1.png'),
@@ -378,7 +369,7 @@ export const products = [
         description: '',
         discount: ''
     }, {
-        id: 40,
+        id: 41,
         name: 'iphone 15',
         price: '$150.99',
         image: require('../../assets/images/iphone1.jpg'),
