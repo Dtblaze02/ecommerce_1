@@ -40,6 +40,12 @@ export const products = [
             name: 'Product 7',
             price: '$150.99',
             image: require('../../assets/images/w-shoes_1.jpg'),
-          }
+          },
+          {
+            id: 10,
+              name: 'Smart Watch',
+              price: '$50.99',
+              image: require('../../assets/images/watch-10.jpg'),
+            }
     // Add more products as needed
   ];
