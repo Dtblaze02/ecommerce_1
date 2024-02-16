@@ -274,6 +274,57 @@ export const products = [
         discount: ''
     }, {
         id: 75,
+          name: 'Product 75',
+          price: '$2500.99',
+          image: require('../../assets/images/sony_camera75.png'),
+          category:'electronics',
+          quantity: '100',
+          description: 'unleash your creativity',
+          discount:''
+        },
+{
+  id: 91,
+  name: 'Apple Watch',
+  price: '$64.99',
+  image: require('../../assets/images/watch-10.jpg'),
+  category:'fashion',
+  quantity: '15',
+  description: '',
+  discount:''       
+},
+{
+  id: 12,
+  name: 'Product 12',
+  price: '$200',
+  image: require('../../assets/images/hair.jpeg'),
+  category: 'Beauty',
+  quantity: '1',
+  description: '',
+  discount: '',
+  
+},
+{
+  id: 60,
+  name: 'w-shoes_1.png',
+  price: '$16.99',
+  image: require('../../assets/images/w-shoes_1.png'),
+  category:'fashion',
+  quantity: '20',
+  description: '',
+  discount:''
+},
+{
+  id: 619,
+  name: 'nivea',
+  price: '$2.99',
+  image: require('../../assets/images/nivea.jpg'),
+  category:'beauty',
+  quantity: '20',
+  description: '',
+  discount:''
+},
+  {
+        id:50,
         name: 'Product 75',
         price: '$2500.99',
         image: require('../../assets/images/sony_camera75.png'),
