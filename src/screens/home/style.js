@@ -1,44 +1,59 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-    },
-    header: {
-      padding: 20,
-      borderBottomWidth: 1,
-      borderBottomColor: '#ccc',
-    },
-    headerText: {
-      fontSize: 24,
-      fontWeight: 'bold',
-    },
-    productContainer: {
-      flexDirection: 'row',
-      flexWrap: 'wrap',
-      justifyContent: 'space-around',
-      paddingVertical: 20,
-    },
-    productItem: {
-      width: '45%',
-      borderWidth: 1,
-      borderColor: '#ccc',
-      marginBottom: 10,
-      alignItems: 'center',
-    },
-    productImage: {
-      width: '100%',
-      height: 150,
-      resizeMode: 'cover',
-    },
-    productName: {
-      fontSize: 16,
-      fontWeight: 'bold',
-      marginVertical: 10,
-    },
-    productPrice: {
-      fontSize: 14,
-      color: 'green',
-    },
-  });
+  container: {
+    flex: 1,
+    padding: 20,
+  },
+  tabContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginBottom: 10,
+  },
+  tab: {
+    paddingVertical: 10,
+  },
+  selectedTab: {
+    borderBottomWidth: 2,
+    borderColor: 'tomato',
+    color: 'white',
+    backgroundColor: 'grey',
+  },
+  tabText: {
+    fontSize: 16,
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  productList: {
+    flex: 1,
+  },
+  productItem: {
+    flex: 1,
+    margin: 10,
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    padding: 10,
+    alignItems: 'center',
+  },
+  productImage: {
+    width: 150,
+    height: 150,
+    resizeMode: 'cover',
+    marginBottom: 10,
+    borderRadius: 5,
+  },
+  productName: {
+    fontSize: 16,
+    marginBottom: 5,
+  },
+  productPrice: {
+    fontSize: 14,
+    color: 'gray',
+  },
+
+  
+
+});
