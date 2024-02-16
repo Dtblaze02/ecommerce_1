@@ -135,7 +135,7 @@ export const products = [
       description: '',
       discount:''       
   },
-  {
+   {
     id: 19,
     name: 'Product 20',
     price: '$34.99',
@@ -143,7 +143,17 @@ export const products = [
     category:'fashion',
     quantity: '15',
     description: '',
-    discount:''       
+    discount:''   }, 
+ 
+{
+  id: 25,
+  name: 'Bread',
+  price: '$34.99',
+  image: require('../../assets/images/bread.jpg'),
+  category:'groceries',
+  quantity: '15',
+  description: '',
+  discount:''       
 },
   {
     id: 21,
@@ -164,5 +174,16 @@ export const products = [
       quantity: '25',
       description: '',
       discount:'' 
-   }
-  ];
+   },
+  {
+    id: 26,
+    name: 'yam',
+    price: '$34.99',
+    image: require('../../assets/images/yam.jpg'),
+    category:'groceries',
+    quantity: '15',
+    description: '',
+    discount:''       
+  },
+];
+
