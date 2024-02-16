@@ -503,5 +503,14 @@ export const products = [
         quantity: '20',
         description: '',
         discount: ''
-    }
+    }, {
+      id: 69,
+      name: 'barbie.png',
+      price: '$25.99',
+      image: require('../../assets/images/barbie.png'),
+      category: 'fashion',
+      quantity: '20',
+      description: '',
+      discount: ''
+  }
 ];
