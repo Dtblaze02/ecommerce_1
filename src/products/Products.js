@@ -295,6 +295,26 @@ export const products = [
   description: '',
   discount:''       
 },
+{
+  id: 95,
+  name: 'wristWatch',
+  price: '$64.99',
+  image: require('../../assets/images/watch-6.jpg'),
+  category:'fashion',
+  quantity: '15',
+  description: '',
+  discount:''       
+},
+{
+  id: 95,
+  name: 'shoe',
+  price: '$50,99',
+  image: require('../../assets/images/shoe-3.png'),
+  category:'fashion',
+  quantity: '15',
+  description: '',
+  discount:''       
+},
 
   // Add more products as needed
 
