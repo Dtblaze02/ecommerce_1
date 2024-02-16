@@ -46,6 +46,16 @@ export const products = [
         description: '',
         discount:''
       },
+      {
+        id: 11,
+        name: 'Product 11',
+        price: '$19.99',
+        image: require('../../assets/images/Teemespice_Slippers.jpg'),
+        category:'fashion',
+        quantity: '20',
+        description: '',
+        discount:''
+      },
 
 
       {
@@ -112,6 +122,26 @@ export const products = [
             description: '',
             discount:''       
         },
+        {
+          id: 50,
+          name: 'Scissors slide genuine leather',
+          price: '$30.89',
+          image: require('../../assets/images/scissors slide genuine leather.jpg'),
+          category:'fashion',
+          quantity: '10',
+          description: '',
+          discount:''       
+      },
+      {
+      id: 80,
+      name: 'Plain hoodie',
+      price: '$25.55',
+      image: require('../../assets/images/plain hoodie.jpg'),
+      category:'fashion',
+      quantity: '5',
+      description: '',
+      discount:'' 
+      },
         {
           id: 45,
           name: 'samsung galaxy s21',
@@ -180,9 +210,8 @@ export const products = [
     category:'fashion',
     quantity: '15',
     description: '',
-    discount:''   }, 
- 
-
+    discount:''   
+   },
 {
   id: 25,
   name: 'Bread',
@@ -205,8 +234,6 @@ export const products = [
     description: '',
     discount:'' 
   },
-   {
-     id: 40,
 
     {
       id: 25,
@@ -280,11 +307,6 @@ export const products = [
           description: 'unleash your creativity',
           discount:''
         },
-
-
-  
-
-
 {
   id: 91,
   name: 'Apple Watch',
@@ -295,8 +317,26 @@ export const products = [
   description: '',
   discount:''       
 },
-
-  // Add more products as needed
-
+{
+  id: 12,
+  name: 'Product 12',
+  price: '$200',
+  image: require('../../assets/images/hair.jpeg'),
+  category: 'Beauty',
+  quantity: '1',
+  description: '',
+  discount: '',
+  
+},
+{
+  id: 60,
+  name: 'w-shoes_1.png',
+  price: '$16.99',
+  image: require('../../assets/images/w-shoes_1.png'),
+  category:'fashion',
+  quantity: '20',
+  description: '',
+  discount:''
+}
 
 ];
