@@ -27,12 +27,15 @@ export default function App() {
 
               }
               return <Ionicons name={iconName} size={size} color={color}/>
-            }
+            },
+            //this section was used to fix the commented code below
+            tabBarActiveTintColor: 'blue',
+            tabBarInactiveTintColor: 'black'
           })}
-          tabBarOptions={{
-            activeTintColor: 'blue',
-            inactiveTintColor: 'black'
-          }}
+          // tabBarOptions={{
+          //   activeTintColor: 'blue',
+          //   inactiveTintColor: 'black'
+          // }}
         >
           <Tab.Screen name='Home' component={HomeScreen} options={{title:'Welcome to Shop'}}/>
           <Tab.Screen name='Detail' component={DetailScreen} options={{title:'Product Detail'}}/>
@@ -49,6 +52,4 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         paddingTop: Platform.OS === 'android' ? 25 : 0
     },
-});
-
-
+}); 
