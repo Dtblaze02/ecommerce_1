@@ -496,7 +496,7 @@ export const products = [
   name: 'Product shirt',
   price: '$5',
   image: require('../../assets/images/shirt-7.jpg'),
-  category: 'Beauty',
+  category: 'fashion',
   quantity: '11',
   description: '',
   discount: '',
