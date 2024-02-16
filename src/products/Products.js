@@ -1,43 +1,46 @@
 export const products = [
-    /* your products should fall between any of these categories (
-  fashion(cloth, bags, shoes, watch etc),
-  groceries(garri, rice, plantain, beans, milo, iru etc),
-  beauty(creams, soaps, makeups etc),
+  /* your products should fall between any of these categories (
+  fashion(cloth, bags, shoes, watch etc), 
+  groceries(garri, rice, plantain, beans, milo, iru etc), 
+  beauty(creams, soaps, makeups etc), 
   electronics (clipper, phones, laptops, tvs etc)
   )*/
     {
-        id: 1,
-        name: 'Bag 1',
-        price: '$19.99',
-        image: require('../../assets/images/bag-1.png'),
-        category: 'fashion',
-        quantity: '20',
-        description: '',
-        discount: ''
-    }, {
-        id: 2,
-        name: 'Product 2',
-        price: '$49.99',
-        image: require('../../assets/images/shoe-1.png'),
-        category: 'fashion',
-        quantity: '5',
-        description: '',
-        discount: ''
-    }, {
+      id: 1,
+      name: 'Bag 1',
+      price: '$19.99',
+      image: require('../../assets/images/bag-1.png'),
+      category:'fashion',
+      quantity: '20',
+      description: '',
+      discount:''
+    },
+    {
+      id: 2,
+      name: 'Product 2',
+      price: '$49.99',
+      image: require('../../assets/images/shoe-1.png'),
+      category:'fashion',
+      quantity: '5',
+      description: '',
+      discount:''
+    },
+    {
         id: 3,
         name: 'Product 3',
         price: '$14.99',
         image: require('../../assets/images/shoe-2.png'),
-        category: 'fashion',
+        category:'fashion',
         quantity: '10',
         description: '',
-        discount: ''
-    }, {
+        discount:''
+      },
+      {
         id: 4,
         name: 'Product 4',
         price: '$19.99',
         image: require('../../assets/images/watch-1.png'),
-        category: 'fashion',
+        category:'fashion',
         quantity: '4',
         description: '',
         discount: ''
@@ -58,26 +61,31 @@ export const products = [
         category: 'fashion',
         quantity: '20',
         description: '',
-        discount: ''
-    }, {
+        discount:''
+      }, {
+
         id: 30,
         name: 'Product 30',
         price: '$24.99',
         image: require('../../assets/images/belt-1.png'),
-        category: 'fashion',
+        category:'fashion',
         quantity: '10',
         description: '',
-        discount: ''
-    }, {
-        id: 5,
+        discount:''
+      },
+
+      {         
+      id: 5,
         name: 'Product 5',
         price: '$50.99',
         image: require('../../assets/images/footwear.png'),
-        category: 'fashion',
+        category:'fashion',
         quantity: '34',
         description: '',
-        discount: ''
-    }, {
+        discount:''
+
+      },
+ {
         id: 6,
         name: 'Product 6',
         price: '$10.99',
@@ -145,7 +153,7 @@ export const products = [
         name: 'all power 3250 watt',
         price: '$399.99',
         image: require('../../assets/images/generator.jpg'),
-        category: 'electronics',
+        category:'electronics',
         quantity: '10',
         description: '',
         discount: ''
@@ -233,41 +241,46 @@ export const products = [
     }, {
         id: 40,
 
-        name: 'Sweat Shirt',
-        price: '$50',
-        image: require('../../assets/images/Zibaville-1.png'),
-        category: 'fashion',
-        quantity: '25',
-        description: '',
-        discount: ''
-    }, {
-        id: 26,
-        name: 'yam',
-        price: '$34.99',
-        image: require('../../assets/images/yam.jpg'),
-        category: 'groceries',
-        quantity: '15',
-        description: '',
-        discount: ''
-    }, {
-        id: 31,
-        name: 'Product 31',
-        price: '$12.99',
-        image: require('../../assets/images/glass-1.jpg'),
-        category: 'fashion',
-        quantity: '10',
-        description: '',
-        discount: ''
-    }, {
-        id: 75,
+      name: 'Sweat Shirt',
+      price: '$50',
+      image: require('../../assets/images/Zibaville-1.png'),
+      category:'fashion',
+      quantity: '25',
+      description: '',
+      discount:'' 
+    },
+    {
+      id: 26,
+      name: 'yam',
+      price: '$34.99',
+      image: require('../../assets/images/yam.jpg'),
+      category:'groceries',
+      quantity: '15',
+      description: '',
+      discount:''       
+    },
+    {
+    id: 31,
+    name: 'Product 31',
+    price: '$12.99',
+    image: require('../../assets/images/glass-1.jpg'),
+    category:'fashion',
+    quantity: '10',
+    description: '',
+    discount:'' 
+  },
+    {
+      id: 75,
         name: 'Product 75',
         price: '$1500.99',
         image: require('../../assets/images/canon_camera75.png'),
-        category: 'electronics',
+        category:'electronics',
         quantity: '100',
         description: 'unleash your creativity',
-        discount: ''
-    }, {
+        discount:''
+      },
+
+      {
         id: 75,
           name: 'Product 75',
           price: '$2500.99',
@@ -302,7 +315,18 @@ export const products = [
   id: 60,
   name: 'w-shoes_1.png',
   price: '$16.99',
-  image: require('../../assets/images/w-shoes_1.jpg'),
+  image: require('../../assets/images/w-shoes_1.png'),
+  category:'fashion',
+  quantity: '20',
+  description: '',
+  discount:''
+},
+
+{
+  id: 66,
+  name: 'trousers-1.png',
+  price: '$50.99',
+  image: require('../../assets/images/trousers-1.png'),
   category:'fashion',
   quantity: '20',
   description: '',
