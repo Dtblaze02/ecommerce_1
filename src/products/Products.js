@@ -53,8 +53,6 @@ export const products = [
         description: '',
         discount:''
       },
-
-
       {
         id: 30,
         name: 'Product 30',
@@ -319,7 +317,7 @@ export const products = [
   id: 60,
   name: 'w-shoes_1.png',
   price: '$16.99',
-  image: require('../../assets/images/w-shoes_1.png'),
+  image: require('../../assets/images/w-shoes_1.jpg'),
   category:'fashion',
   quantity: '20',
   description: '',
