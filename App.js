@@ -23,7 +23,7 @@ export default function App() {
               }else if(route.name === 'Detail'){
                 iconName = focused ? 'cart' : 'cart-outline'
               }else if(route.name === 'Account'){
-                iconName = focused ? 'account' : 'account-outline'
+                iconName = focused ? 'person' : 'person-outline'
 
               }
               return <Ionicons name={iconName} size={size} color={color}/>
