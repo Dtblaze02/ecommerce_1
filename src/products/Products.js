@@ -1,4 +1,8 @@
 export const products = [
+  
+    // Add more products as needed
+   
+   
     {
       id: 1,
       name: 'Bag 1',
@@ -60,6 +64,17 @@ export const products = [
                   price: '$34.99',
                   image: require('../../assets/images/Kinomo-1.jpg'),
               },
-              
+               {
+      id: 9,
+      name: 'jacket1',
+      price: '$19.99',
+      image: require('../../assets/images/jacket.jpg'),
+    },
+    {
+      id: 10,
+      name: 'jacket2',
+      price: '$19.99',
+      image: require('../../assets/images/jacket.jpg'),
+    },
     // Add more products as needed
   ];
