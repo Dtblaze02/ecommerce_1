@@ -107,8 +107,19 @@ export const products = [
           category:'electronics',
           quantity: '57',
           description: '',
+          discount:'' 
+        },      
+          {
+            id: 57,
+          name: 'Product 21',
+          price: '$37.00',
+          image: require('../../assets/images/shoe.jpg'),
+          category:'fashion',
+          quantity: '25',
+          description: '',
           discount:''       
-      },
+          },
+      
               
     // Add more products as needed
   ];
