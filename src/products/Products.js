@@ -112,6 +112,36 @@ export const products = [
             description: '',
             discount:''       
         },
+        {
+          id: 45,
+          name: 'samsung galaxy s21',
+          price: '$599.99',
+          image: require('../../assets/images/samsung2.jpg'),
+          category:'electronics',
+          quantity: '25',
+          description: '',
+          discount:''       
+      },        
+      {
+        id: 46,
+        name: 'all power 3250 watt',
+        price: '$399.99',
+        image: require('../../assets/images/generator.jpg'),
+        category:'electronics',
+        quantity: '10',
+        description: '',
+        discount:''       
+    }, 
+    {
+      id: 47,
+      name: 'human hair',
+      price: '$100.99',
+      image: require('../../assets/images/hair.jpg'),
+      category:'beauty',
+      quantity: '20',
+      description: '',
+      discount:''       
+  },  
          {
           id: 57,
           name: 'Product 57',
@@ -132,7 +162,6 @@ export const products = [
           description: '',
           discount:''       
           },
-      
     {
       id: 19,
       name: 'Product 21',
