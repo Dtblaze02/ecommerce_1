@@ -684,6 +684,19 @@ export const products = [
         description: '',
         discount: ''
     }, {
+      id: 911,
+      name: 'Tecno Phone',
+      price: '$64.99',
+      image: require('../../assets/images/tecno-camon.jpg'),
+      category: 'electronics',
+      quantity: '75',
+      description: 'available',
+      discount: ''
+  }, 
+    
+    
+    
+    {
         id: 12,
         name: 'Product 12',
         price: '$200',
