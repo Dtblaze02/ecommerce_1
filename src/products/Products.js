@@ -52,8 +52,9 @@ export const products = [
         category: 'fashion',
         quantity: '6',
         description: '',
-        discount: ''
-    }, {
+        discount:''
+      },
+      {
         id: 11,
         name: 'Product 11',
         price: '$19.99',
@@ -62,7 +63,18 @@ export const products = [
         quantity: '20',
         description: '',
         discount:''
-      }, {
+      },
+      {
+        id: 7,
+        name: 'Product 7',
+        price: '$1299.99',
+        image: require('../../assets/images/iphone15.jpg'),
+        category:'electronics',
+        quantity: '300',
+        description: 'Experience Premium luxury with the iPhone 16',
+        discount:'10% off '
+      },
+      {
         id: 30,
         name: 'Product 30',
         price: '$24.99',
@@ -70,8 +82,8 @@ export const products = [
         category:'fashion',
         quantity: '10',
         description: '',
-        discount:''
-      },
+        discount: ''
+    }, 
       {         
       id: 5,
         name: 'Product 5',
@@ -80,8 +92,8 @@ export const products = [
         category:'fashion',
         quantity: '34',
         description: '',
-        discount:''
-      },
+        discount: ''
+    },
       {
         id: 6,
           name: 'Product 6',
@@ -644,6 +656,17 @@ export const products = [
         description: '',
         discount: ''
     }, {
+      id: 711,
+      name: 'Tecno Phone',
+      price: '$64.99',
+      image: require('../../assets/images/tecno-camon-16.png'),
+      category: 'electronics',
+      quantity: '75',
+      description: 'available',
+      discount: ''
+  }, 
+
+    {
         id: 12,
         name: 'Product 12',
         price: '$200',
