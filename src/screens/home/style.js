@@ -16,6 +16,7 @@ export const styles = StyleSheet.create({
   selectedTab: {
     borderBottomWidth: 2,
     borderColor: 'tomato',
+    color: 'white',
   },
   tabText: {
     fontSize: 16,
