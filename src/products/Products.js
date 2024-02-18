@@ -55,11 +55,6 @@ export const products = [
         discount:''
       },
       {
-        id: 6,
-        name: 'Product 6',
-
-        discount: ''
-    }, {
         id: 11,
         name: 'Product 11',
         price: '$19.99',
@@ -80,9 +75,6 @@ export const products = [
         discount:'10% off '
       },
       {
-        id: 8,
-        name: 'Product 8',
-      }, {
         id: 30,
         name: 'Product 30',
         price: '$24.99',
@@ -91,11 +83,7 @@ export const products = [
         quantity: '10',
         description: '',
         discount: ''
-    }, {
-        id: 9,
-        name: 'Product 9',
-        discount:''
-      },
+      }, 
       {         
       id: 5,
         name: 'Product 5',
@@ -106,11 +94,7 @@ export const products = [
         description: '',
         discount: ''
 
-    }, {
-        id: 10,
-          name: 'Product 10',
-        discount:''
-      },
+      }, 
       {
         id: 6,
           name: 'Product 6',
