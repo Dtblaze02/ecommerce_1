@@ -55,8 +55,8 @@ export const products = [
         discount:''
       },
       {
-        id: 6,
-        name: 'Product 6',
+        id: 11,
+        name: 'Product 11',
         price: '$19.99',
         image: require('../../assets/images/Teemespice_Slippers.jpg'),
         category: 'fashion',
@@ -75,27 +75,28 @@ export const products = [
         discount:'10% off '
       },
       {
-        id: 8,
-        name: 'Product 8',
+        id: 30,
+        name: 'Product 30',
         price: '$24.99',
         image: require('../../assets/images/belt-1.png'),
         category:'fashion',
         quantity: '10',
         description: '',
         discount: ''
-    }, {
-        id: 9,
-        name: 'Product 9',
+    }, 
+      {         
+      id: 5,
+        name: 'Product 5',
         price: '$50.99',
         image: require('../../assets/images/footwear.png'),
         category:'fashion',
         quantity: '34',
         description: '',
         discount: ''
-
-    }, {
-        id: 10,
-          name: 'Product 10',
+    },
+      {
+        id: 6,
+          name: 'Product 6',
           price: '$10.99',
           image: require('../../assets/images/watch-6.jpg'),
           category:'electronics',
@@ -655,6 +656,17 @@ export const products = [
         description: '',
         discount: ''
     }, {
+      id: 711,
+      name: 'Tecno Phone',
+      price: '$64.99',
+      image: require('../../assets/images/tecno-camon-16.png'),
+      category: 'electronics',
+      quantity: '75',
+      description: 'available',
+      discount: ''
+  }, 
+
+    {
         id: 12,
         name: 'Product 12',
         price: '$200',
