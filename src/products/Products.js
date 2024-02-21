@@ -101,7 +101,7 @@ export const products = [
         name: 'Product 11',
         price: '$150.99',
         image: require('../../assets/images/w-shoes_1.jpg'),
-        category: 'electronics',
+        category: 'fashion',
         quantity: '60',
         description: '',
         discount: ''
@@ -321,16 +321,7 @@ export const products = [
         quantity: '100',
         description: 'unleash your creativity',
         discount: ''
-    }, {
-        id: 36,
-        name: 'Product 75',
-        price: '$2500.99',
-        image: require('../../assets/images/sony_camera75.png'),
-        category: 'electronics',
-        quantity: '100',
-        description: 'unleash your creativity',
-        discount: ''
-    }, {
+    },{
         id: 37,
         name: 'Apple Watch',
         price: '$64.99',
@@ -528,16 +519,7 @@ export const products = [
         quantity: '1',
         description: '',
         discount: ''
-    }, {
-        id: 59,
-        name: 'w-shoes_1.png',
-        price: '$16.99',
-        image: require('../../assets/images/w-shoes_1.jpg'),
-        category: 'fashion',
-        quantity: '20',
-        description: '',
-        discount: ''
-    }, {
+    },{
         id: 60,
         name: 'barbie.png',
         price: '$25.99',

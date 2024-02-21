@@ -1,7 +1,7 @@
 // CartScreen.js
 import React from 'react';
 import { View, Text, Button, Image, StyleSheet } from 'react-native';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../../context/CartContext';
 
 const CartScreen = () => {
   const { cartItems, removeItemFromCart } = useCart();
