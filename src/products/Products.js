@@ -537,5 +537,23 @@ export const products = [
         quantity: '15',
         description: '',
         discount: ''
+    }, {
+        id: 62,
+        name: 'Golden Hat',
+        price: '$15.99',
+        image: require('../../assets/images/Gold Hat.jpeg'),
+        category: 'Fashion',
+        quantity: '12',
+        description: '',
+        discount: ''
+    }, {
+        id: 63,
+        name: 'Hat',
+        price: '$10.99',
+        image: require('../../assets/images/HAT.jpg'),
+        category: 'Fashion',
+        quantity: '24',
+        description: '',
+        discount: ''
     }
 ];
