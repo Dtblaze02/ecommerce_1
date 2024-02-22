@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mentor2875.ecommerce_1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
