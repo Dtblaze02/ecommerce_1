@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dtblaze02.ecommerce_1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a2436c4-cf54-4b38-bf24-056a389fca9a"
+      }
+    },
+    "owner": "dtblaze02"
   }
 }
