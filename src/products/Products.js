@@ -573,5 +573,23 @@ export const products = [
         quantity: '35',
         description: '',
         discount: ''
+    }, {
+        id: 66,
+        name: 'Galaxy Printer',
+        price: '$999.99',
+        image: require('../../assets/images/printer.png'),
+        category: 'electronics',
+        quantity: '15',
+        description: '',
+        discount: ''
+    }, {
+        id: 67,
+        name: 'Galaxy Television',
+        price: '$1000.00',
+        image: require('../../assets/images/television set.png'),
+        category: 'electronics',
+        quantity: '25',
+        description: '',
+        discount: ''
     }
 ];
