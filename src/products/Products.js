@@ -537,5 +537,41 @@ export const products = [
         quantity: '15',
         description: '',
         discount: ''
+    }, {
+        id: 62,
+        name: 'Laptop',
+        price: '$290.05',
+        image: require('../../assets/images/galaxy apple.jpg'),
+        category: 'electronics',
+        quantity: '10',
+        description: '',
+        discount: ''
+    }, {
+        id: 63,
+        name: 'Printer',
+        price: '$250.19',
+        image: require('../../assets/images/galaxy printer.jpg'),
+        category: 'electronics',
+        quantity: '5',
+        description: '',
+        discount: ''
+    }, {
+        id: 64,
+        name: 'Shoe',
+        price: '$60.10',
+        image: require('../../assets/images/galaxy shoe.jpg'),
+        category: 'fashion',
+        quantity: '25',
+        description: '',
+        discount: ''
+    }, {
+        id: 65,
+        name: 'Suit',
+        price: '$156.99',
+        image: require('../../assets/images/galaxy suit.jpg'),
+        category: 'fashion',
+        quantity: '35',
+        description: '',
+        discount: ''
     }
 ];
