@@ -2,7 +2,7 @@ import React from 'react';
 import { SafeAreaView, StyleSheet, Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createStackNavigator } from '@react-navigation/stack';
+// import { createStackNavigator } from '@react-navigation/stack';
 import { Ionicons } from '@expo/vector-icons';
 import HomeScreen from './src/screens/home/HomeScreen';
 import DetailScreen from './src/screens/detail/DetailScreen';
@@ -11,7 +11,7 @@ import { AccountScreen } from './src/screens/account/AccountScreen';
 import { CartProvider } from './src/context/CartContext';
 
 const Tab = createBottomTabNavigator();
-const Stack = createStackNavigator();
+// const Stack = createStackNavigator();
 
 export default function App() {
   return (
@@ -36,7 +36,7 @@ export default function App() {
               tabBarInactiveTintColor: 'gray',
             })}
           >
-            <Tab.Screen name='HomeTab' component={HomeStackScreen} options={{ title: 'Welcome to Shop' }} />
+            <Tab.Screen name='HomeTab' component={HomeScreen} options={{ title: 'Welcome to Shop' }} />
             <Tab.Screen name='Cart' component={CartScreen} options={{ title: 'Cart' }} />
             <Tab.Screen name='Account' component={AccountScreen} options={{ title: 'Account' }} />
           </Tab.Navigator>
@@ -46,14 +46,14 @@ export default function App() {
   );
 }
 
-const HomeStackScreen = () => {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name='Home' component={HomeScreen} options={{ headerShown: false }} />
-      <Stack.Screen name='DetailScreen' component={DetailScreen} />
-    </Stack.Navigator>
-  );
-};
+// const HomeStackScreen = () => {
+//   return (
+//     <Stack.Navigator>
+//       <Stack.Screen name='Home' component={HomeScreen} options={{ headerShown: false }} />
+//       <Stack.Screen name='DetailScreen' component={DetailScreen} />
+//     </Stack.Navigator>
+//   );
+// };
 
 const styles = StyleSheet.create({
   AndroidSafeArea: {
