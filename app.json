@@ -32,6 +32,12 @@
         "projectId": "7a2436c4-cf54-4b38-bf24-056a389fca9a"
       }
     },
-    "owner": "dtblaze02"
+    "owner": "dtblaze02",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7a2436c4-cf54-4b38-bf24-056a389fca9a"
+    }
   }
 }
